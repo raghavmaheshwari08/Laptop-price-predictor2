@@ -4,7 +4,7 @@ import numpy as np
 import pickle # Changed import from joblib to pickle
 
 # Load trained model pipeline
-with open('laptop_price_model.pkl (5)', 'rb') as f:
+with open('laptop_price_model (5).pkl', 'rb') as f:
     model = pickle.load(f) # Changed load from joblib to pickle
 
 st.set_page_config(page_title="Laptop Price Predictor", layout="centered")
